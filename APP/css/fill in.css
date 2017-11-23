@@ -218,6 +218,9 @@ a{
 .contacts>div,.tourist>div{
     border-bottom: 1px solid #dcdcdc;
 }
+.tourist{
+    overflow: hidden;
+}
 .tourist>h1>a{
     float: right;
     color:#50bbdb;
@@ -232,16 +235,13 @@ a{
 }
 .tourist>a{
     display: block;
+    float: left;
     width: 0.36rem;
     height: 0.36rem;
-
     background-image: url(../images/fill.jpg);
     background-size: 0.36rem 0.36rem;
-    margin: 0 auto;
+    margin-left: 2.36rem;
     margin-top: 0.08rem;
-    border-radius: 50%;
-    text-align: center;
-    color:#9f9f9f;
 } 
 #btn1{
     width: 0.21rem;
