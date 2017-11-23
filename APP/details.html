@@ -385,13 +385,21 @@
 		<script>
 			var height1=$(".content-2").offset().top
 			var height2=$(".content-4").offset().top
-			document.getElementsByClassName("font-2")[0].ontouchstart=function () {
-				document.getElementsByTagName('html')[0].scrollTop =height1
+			$(".font-2").tap(function () {
+				$(window).scrollTop(height1)
+				// alert("ppp")
+			})
+			$(".font-3").tap(function () {
+				$(window).scrollTop(height2)
+				// body...
+			})
+		// 	document.getElementsByClassName("font-2")[0].ontouchstart=function () {
+		// 		document.getElementsByTagName('html')[0].scrollTop =height1
 				
-			}
-		document.getElementsByClassName("font-3")[0].ontouchstart=function () {
-				document.getElementsByTagName('html')[0].scrollTop =height2
-			}
+		// 	}
+		// document.getElementsByClassName("font-3")[0].ontouchstart=function () {
+		// 		document.getElementsByTagName('html')[0].scrollTop =height2
+		// 	}
 			function back(){
 				location.href=history.go(-1);
 				}
