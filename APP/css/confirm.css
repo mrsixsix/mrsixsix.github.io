@@ -140,6 +140,9 @@ a{
     border: 2px solid #cccccc;
     background-color: #fff; 
 }
+.tourist{
+    overflow: hidden;
+}
 .tourist>p{
     padding-left: 0.35rem;
     background-image: url(../images/lxr_03.png);
@@ -149,15 +152,16 @@ a{
 } 
 .tourist>a{
     display: block;
+    float: left;
     width: 0.36rem;
     height: 0.36rem;
-    line-height: 0.32rem;
-    border: 1px solid #9f9f9f;
-    margin: 0 auto;
+    background-image: url(../images/fill.jpg);
+    background-size: 0.36rem 0.36rem;
+    background-repeat: no-repeat;
+    margin-left: 2.36rem;
+    padding-right: 0.1rem;
     margin-top: 0.08rem;
-    border-radius: 50%;
-    text-align: center;
-    color:#9f9f9f;
+    padding-bottom: 0.1rem;
 } 
 .insurence>div:nth-child(2),.insurence>div:nth-child(4){
     width: 0.29rem;
@@ -198,6 +202,7 @@ a{
     margin-top: 6px;
 }
 #btn1{
+    opacity: 0;
     width: 0.21rem;
     height: 0.24rem;
     position: relative;
