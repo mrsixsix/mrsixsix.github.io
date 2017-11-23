@@ -95,4 +95,8 @@ $('.submit').tap(function(){
 		$('.submit>a').attr('href','confirm.html')
 	}
 })
+$('.contacts').tap(function(){
+	$('.fixed').text('')
+})
+
 

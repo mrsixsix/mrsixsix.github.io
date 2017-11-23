@@ -157,6 +157,7 @@ body{
 
 }
 .content-top-font span{
+	cursor:pointer;
 	margin-right: 0.6rem;
 	float: left;
 	display: block;

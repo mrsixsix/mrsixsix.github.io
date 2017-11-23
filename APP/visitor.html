@@ -78,25 +78,10 @@
 		function fun1() {
 			Text=$(".number").text(num)
 		}
-
-		$("input").change(function(){
-			if(this.checked===true){
-				$(this).next("span").addClass("active")
-				if(num<2){
-					num++
-				}
-
-			}else{
-				$(this).next("span").removeClass("active")
-				if(num>0){
-					num--
-				}
-			}
-			fun1()
-		})
-		  var chks=document.getElementsByTagName("input");
+	  var chks=document.getElementsByTagName("input");
    for(var i=0;i<chks.length;i++){
-      chks[i].onclick=function(){
+      chks[i].onchange=function(){
+
          var ischk=0;
          for(var j=0;j<chks.length;j++){
             if(chks[j].checked)ischk++;
@@ -108,6 +93,22 @@
          }
       }
    }
+
+		$("input").change(function(){
+			if(this.checked===true){
+				$(this).next("span").addClass("active")
+				if(num<2){
+					num++
+				}
+			}else{
+				$(this).next("span").removeClass("active")
+				if(num>0){
+					num--
+				}
+			}
+			fun1()
+		})
+	
 	</script>
 </body>
 </html>
