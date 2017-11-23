@@ -1,3 +1,7 @@
+/*-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+-webkit-user-select: none;
+-moz-user-focus: none;
+-moz-user-select: none;*/
 .header{
 	height: 0.88rem;
 	background-color: #50bbdb;
@@ -80,7 +84,9 @@
 	height: 3rem;
 	position: relative;
 }
-.swiper-container{
+.banner .swiper-container{
+	position: absolute;
+	top: 0;
 	width: 6.4rem;
 	height: 3rem;
 }
@@ -221,7 +227,7 @@
 	border-radius: 1.01rem 1.01rem 0 0;
 	position: absolute;
 	/*z-index: 2;*/
-	right: 0.01rem;
+	right: 1px;
 	bottom: 0;
 }
 .image-radius>span{
@@ -299,10 +305,10 @@
 
 	display: block;
 	float: left;
-	width: 0.46rem;
+	width: 0.66rem;
 	height: 0.74rem;
 	float: left;
-	margin-right: 1.16rem;
+	margin-right: 0.96rem;
 	margin-top: 0.14rem;
 }
 .person img{
@@ -320,7 +326,7 @@
 
 .bottom .person-4{
 	margin-right: 0;
-	width: 0.8rem;
+	width: 1rem;
 }
 .bottom .person-4 img{
 margin-left: 0.16rem;
@@ -330,6 +336,9 @@ margin-left: 0.16rem;
 }
 .hide{
 	display: none;
+}
+.person-4{
+	margin-right: 0;
 }
 
 

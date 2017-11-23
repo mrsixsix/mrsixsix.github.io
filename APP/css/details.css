@@ -51,7 +51,7 @@ body{
 
 }
 .background-right{
-	width: 0.76rem;
+/*	width: 0.76rem;*/
 	height: 0.71rem;
 	float: left;
 	border-left: 1px solid #cccccc;
@@ -102,6 +102,7 @@ body{
 	background-color: #e5e5e5;
 }
 .time-content{
+	overflow: hidden;
 	display: block;
 	float: left;
 	width: 6.19rem;
@@ -123,7 +124,7 @@ body{
 	float: left;
 	color: #333;
 	border:1px solid #cccccc;
-	border-radius: 0.01rem;
+	border-radius: 1px;
 	height: 0.3rem;
 	line-height: 0.3rem;
 	text-align: center;
@@ -183,7 +184,7 @@ body{
 .mid i{
 	display: block;
 	width: 2.66rem;
-	height: 0.01rem;
+	height: 1px;
 	background-color: #d5d5d5;
 	margin-top: 0.34rem;
 	float: left;
@@ -268,7 +269,7 @@ body{
 	line-height: 0.3rem;
 	margin-left: 0.14rem;
 	padding-bottom: 0.1rem;
-	border-bottom: 0.01rem solid #50bbdb;
+	border-bottom: 1px solid #50bbdb;
 }
 .day-mid{
 	margin-top: 0.24rem;
@@ -403,8 +404,8 @@ body{
 .review-top>span:nth-child(2){
 	text-align: center;
 	width: 1.78rem;
-	border-left: 0.01rem solid #cccccc;
-	border-right: 0.01rem solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
 }
 .review-top>span:nth-child(3){
 	text-align: center;
@@ -609,7 +610,7 @@ overflow: hidden;
 .mid-a i{
 	display: block;
 	width: 2.66rem;
-	height: 0.01rem;
+	height: 1px;
 	background-color: #d5d5d5;
 	margin-top: 0.34rem;
 	float: left;

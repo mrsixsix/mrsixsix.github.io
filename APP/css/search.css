@@ -353,8 +353,8 @@ body{
 	position: absolute;
 	width: 0.38rem;
 	height: 0.24rem;
-	top: 0.02rem;
-	left: 0.01rem;
+	top: 2px;
+	left: 1px;
 }
 .affirm-right-2{
 	/*display: none;*/

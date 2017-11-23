@@ -219,7 +219,7 @@
 	border-radius: 1.01rem;
 	position: absolute;
 	/*z-index: 2;*/
-	right: 0.01rem;
+	right: 1px;
 	top: 2.43rem;
 }
 .image-radius>span{
@@ -242,7 +242,7 @@
 .image-radius>span>i{
 	display: block;
 	width: 0.91rem;
-	height: 0.01rem;
+	height: 1px;
 	background-color: #fff;
 	float: left;
 	opacity: 0.6;
@@ -305,11 +305,13 @@
 	z-index: 99;
 }
 .person{
+
 	display: block;
-	width: 0.46rem;
+	float: left;
+	width: 0.66rem;
 	height: 0.74rem;
 	float: left;
-	margin-right: 1.16rem;
+	margin-right: 0.96rem;
 	margin-top: 0.14rem;
 }
 .person img{
@@ -327,13 +329,19 @@
 
 .bottom .person-4{
 	margin-right: 0;
-	width: 0.8rem;
+	width: 1rem;
 }
 .bottom .person-4 img{
 margin-left: 0.16rem;
 }
 .person-1{
 	margin-left: 0.43rem;
+}
+.hide{
+	display: none;
+}
+.person-4{
+	margin-right: 0;
 }
 
 .more-bottom{

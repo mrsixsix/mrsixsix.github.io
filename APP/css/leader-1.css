@@ -65,7 +65,7 @@
 .mid i{
 	display: block;
 	width: 2.66rem;
-	height: 0.01rem;
+	height: 1px;
 	background-color: #d5d5d5;
 	margin-top: 0.34rem;
 	float: left;
@@ -140,7 +140,7 @@
 	border-radius: 1.01rem 1.01rem 0 0;
 	position: absolute;
 	/*z-index: 2;*/
-	right: 0.01rem;
+	right: 1px;
 	bottom: 0;
 }
 .image-radius>span{

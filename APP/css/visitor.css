@@ -36,7 +36,7 @@ body{
 	overflow: hidden;
 }
 .content div{
-	border-bottom: 0.01rem solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
 }
 .content-top{
 	height: 0.5rem;
@@ -90,13 +90,13 @@ body{
 	top: 0.19rem;
 	display: block;
 	border-radius: 0.31rem;
-	border: 0.01rem solid #50bbdb;
+	border: 1px solid #50bbdb;
 	width: 0.31rem;
 	height: 0.31rem;
 	z-index: 1;
 }
 .active{
-	border: 0.01rem solid orange;
+	border: 1px solid orange;
 }
 .bottom{
 	display: block;
