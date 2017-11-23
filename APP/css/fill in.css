@@ -252,6 +252,7 @@ a{
     position: relative;
     top:0.2rem;
     float: left;
+    opacity: 0;
 }
 
 .insurence>div:nth-child(2),.insurence>div:nth-child(4){
@@ -264,6 +265,7 @@ a{
 .insurence>div:nth-child(2)>.trues,.insurence>div:nth-child(4)>.trues{
     width: 0.29rem;
     height: 0.27rem;
+    background-repeat: no-repeat;
     background-image: url(../images/btn1_03.png);
     -webkit-background-size: 0.29rem;
     background-size: 0.29rem;
