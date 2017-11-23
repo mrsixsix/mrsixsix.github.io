@@ -385,11 +385,12 @@
 		<script>
 			var height1=$(".content-2").offset().top
 			var height2=$(".content-4").offset().top
-			document.querySelector(".font-2").ontouchstart=function () {
-				document.querySelector('html').scrollTop =height1
+			document.getElementsByClassName("font-2")[0].ontouchstart=function () {
+				document.getElementsByTagName('html')[0].scrollTop =height1
+				
 			}
-			document.querySelector(".font-3").ontouchstart=function () {
-				document.querySelector('html').scrollTop =height2
+		document.getElementsByClassName("font-3")[0].ontouchstart=function () {
+				document.getElementsByTagName('html')[0].scrollTop =height2
 			}
 			function back(){
 				location.href=history.go(-1);
