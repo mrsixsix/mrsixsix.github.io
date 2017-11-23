@@ -385,10 +385,10 @@
 		<script>
 			var height1=$(".content-2").offset().top
 			var height2=$(".content-4").offset().top
-			document.querySelector(".font-2").onclick=function () {
+			document.querySelector(".font-2").ontouchstart=function () {
 				document.querySelector('html').scrollTop =height1
 			}
-			document.querySelector(".font-3").onclick=function () {
+			document.querySelector(".font-3").ontouchstart=function () {
 				document.querySelector('html').scrollTop =height2
 			}
 			function back(){
